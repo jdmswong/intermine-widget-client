@@ -44,7 +44,7 @@ Run `cake compile:main` to compile widgets and templates into one target. Check 
 ## Test:
 
 1. Run `cake compile:tests` to compile tests.
-2. Visit [http://0.0.0.0:1111/test](http://0.0.0.0:1111/test) to run the tests using [Mocha](http://visionmedia.github.com/mocha/) and [Chai](http://chaijs.com/).
+2. Visit [http://0.0.0.0:1111/test](http://0.0.0.0:1111/test) to run the tests using [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/).
 
 The tests are automatically loaded from available tests in the `test/src` directory. Libraries needed to run the tests are loaded automatically too. You can speed up their execution by including the files the `<head>` section of the `test/index.html` file.
 
